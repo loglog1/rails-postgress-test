@@ -1,0 +1,12 @@
+  [1m[35m (3227.0ms)[0m  [1m[35mCREATE DATABASE "app_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+  [1m[35m (2064.1ms)[0m  [1m[35mCREATE DATABASE "app_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:4
+Started GET "/" for 172.28.0.1 at 2021-10-30 07:50:10 +0000
+Cannot render console from 172.28.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 2833ms (Views: 2785.0ms | ActiveRecord: 0.0ms)
+
+
